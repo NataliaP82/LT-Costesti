@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - LT Costești</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <script src="js/slider.js" defer></script>
+    <script src="js/lightbox.js" defer></script>
+    <script src="js/main.js" defer></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="js/slider.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="">
+            <img class="header-logo" src="images/logo.png">
+        </a>
+
+        <nav id="navbar">
+            <a onclick="mobileMenu()" href="#despre">Despre noi</a>
+            <a onclick="mobileMenu()"  href="#galerie">Galerie</a>
+            <a onclick="mobileMenu()"  href="#contacte">Contacte</a>
+            <a onclick="mobileMenu()" href="noutati.html">Noutăți</a>
+            <a onclick="mobileMenu()" href="orar.html">Orar</a>
+            <i onclick="mobileMenu()" id ="hamburger" class="fas fa-bars"></i>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="intro">
+            <div class="intro-content">
+                <img class="logo" src="images/logo.png">
+                <h1>LT Costești</h1>
+                <h2>Un liceu pentru toți</h2>
+
+                <a id="despre-btn" class="intro-btn" href="">Despre noi</a>
+                <a class="intro-btn" href="">Orar</a>
+            </div>
+            <div class="custom-shape-divider-bottom-1709053337">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+        </section>
+
+
+        <section id="despre">
+            <h1 class="centered"> Despre noi</h1>
+            <i class="fas fa-graduation-cap i1"></i>
+            <i class="fas fa-pencil-alt i2"></i>
+            <i class="fas fa-book i3"></i>
+
+            <i class="fas fa-graduation-cap i4"></i>
+            <i class="fas fa-pencil-alt i5"></i>
+            <i class="fas fa-book i6"></i>
+
+            <i class="fas fa-graduation-cap i7"></i>
+            <i class="fas fa-pencil-alt i8"></i>
+            <i class="fas fa-book i9"></i>
+            <p class="p-despre">
+                Pagina Liceului Teoretic Costeşti îşi propune să informeze elevii, părinţii şi comunitatea despre
+                reultatele elevilor şi procesul educaţional.
+
+            <div class="slideshow">
+                <div class="slide">
+                    <img src="images/s1.jpg">
+                    <div class="slide-text">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p> Un colectiv cu profesori exceptionali
+                        </p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/s2.jpg">
+                    <div class="slide-text">
+                        <i class="fas fa-smile"></i>
+                        <p> Neimplicăm activ în activitățile satului
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="images/s3.jpg">
+                    <div class="slide-text">
+                        <i class="fab fa-black-tie"></i>
+                        <p> Cei mai buni elevi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="galerie">
+            <h1 class="centered">Galerie</h1>
+
+            <i class="fas fa-pencil-alt i2"></i>
+
+
+            <i class="fas fa-graduation-cap i4"></i>
+            <i class="fas fa-pencil-alt i5"></i>
+
+
+            <i class="fas fa-graduation-cap i7"></i>
+            <i class="fas fa-pencil-alt i8"></i>
+            <i class="fas fa-book i9"></i>
+
+            <div class="galerie-container">
+                <a href="images/s1.jpg">
+                    <img src="images/s1.jpg">
+                </a>
+                <a href="images/s2.jpg">
+                    <img src="images/s2.jpg">
+                </a>
+                <a href="images/s3.jpg">
+                    <img src="images/s3.jpg">
+                </a>
+                <a href="images/s4.jpg">
+                    <img src="images/s4.jpg">
+                </a>
+                <a href="images/s5.jpg">
+                    <img src="images/s5.jpg">
+                </a>
+                <a href="images/s6.jpg">
+                    <img src="images/s6.jpg">
+                </a>
+            </div>
+
+        </section>
+        <section id="contacte">
+            <h1 class="centered"> Contacte</h1>
+            <div class="row">
+                <div class="col-50 contacte-info">
+                    <b>Telefon:</b> <a href="tel:+373 26851480">+373 26851480</a>
+                    <br>
+                    <b>Adresa: </b><span> Str. Petru Movilă 2/2</span>
+                    <br>
+                    <b>E-mail:</b>
+                    <a href="mailto:ltcostesti2020@gmail.com"> ltcostesti2020@gmail.com</a>
+                    <br>
+                    <div class="formular-container">
+                            <h3>Lasă un mesaj</h3>
+                            <form id="formular">
+                                <input type="text" id="nume" placeholder="Nume">
+                                <br/>
+                                <input type="email" id="email" placeholder="Email">
+                                <br/>
+                                <textarea id="mesaj" rows="5" placeholder="Mesajul"></textarea>
+                                <br/>
+                                <input onClick="send()" type="button" value="Transmite">
+                                <br/>
+                            </form>
+                    </div>
+
+                </div>
+
+                <div class="col-50">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87281.79463271162!2d28.674905011493994!3d46.872107778577494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c983f260de89d5%3A0xdf26e9e140c3e70d!2sLiceul%20Teoretic%20Coste%C8%99ti!5e0!3m2!1sro!2s!4v1710867678351!5m2!1sro!2s"
+                        class="harta" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        LT Teoretic Costesti
+    </footer>
+
+</body>
+
+</html>
